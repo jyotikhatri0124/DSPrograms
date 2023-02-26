@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   maven:
-    image: b87adcab2684
+    image: f2346d8b20d0
     build:
       context: .
     ports:

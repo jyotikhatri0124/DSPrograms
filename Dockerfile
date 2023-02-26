@@ -1,4 +1,4 @@
 FROM openjdk:8-jre
-ADD target/DSPrograms-1.0-SNAPSHOT.jar ds.jar
-ENTRYPOINT ["java", "-jar","ds.jars"]
+ADD target/DSPrograms-2.0-SNAPSHOT.jar ds.jar
+ENTRYPOINT ["java", "-jar","ds.jar"]
 EXPOSE 8088
